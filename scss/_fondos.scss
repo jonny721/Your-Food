@@ -1,0 +1,23 @@
+.fondo--inicio {
+    background-image: url(../multimedia/tela_inicio.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fondo--info{
+    background-color: rgb(247, 242, 235);
+    border-radius: 3rem;
+    padding: 1rem;
+}
+.fondoDulce {
+    background-image: url(../multimedia/fondoDulce.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fondoFooter {
+    background-color: black;
+}
+
+.fondo-titulo{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.51) 18%, rgba(0,0,0,0.46) 35%, rgba(116,116,116,0.22452731092436973) 50%, rgba(0,0,0,0.46262254901960786) 65%, rgba(0,0,0,0.5074404761904762) 82%, rgba(0,0,0,0) 100%);
+}
