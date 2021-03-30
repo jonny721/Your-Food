@@ -19,6 +19,9 @@ h3 {
 .display-1 {
   font-size: 3rem; }
 
+.nav-link:hover {
+  border-bottom: 2px solid black; }
+
 @media only screen and (max-width: 768px) {
   /* TAMAÑO FUENTES */
   body {
@@ -45,9 +48,15 @@ h3 {
   background-repeat: no-repeat; }
 
 .fondo--info {
-  background-color: #f7f2eb;
-  border-radius: 3rem;
-  padding: 1rem; }
+  background-color: #c9c9c9;
+  border-radius: 2rem;
+  padding: 1rem;
+  box-shadow: black; }
+
+.fondo--contacto {
+  background-image: url(../multimedia/pizarra.png);
+  background-size: contain;
+  background-repeat: no-repeat; }
 
 .fondoDulce {
   background-image: url(../multimedia/fondoDulce.png);
@@ -60,6 +69,13 @@ h3 {
 .fondo-titulo {
   background: black;
   background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.51) 18%, rgba(0, 0, 0, 0.46) 35%, rgba(116, 116, 116, 0.224527) 50%, rgba(0, 0, 0, 0.462623) 65%, rgba(0, 0, 0, 0.50744) 82%, rgba(0, 0, 0, 0) 100%); }
+
+.lista-group-item {
+  position: relative;
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.175); }
 
 * {
   margin: 0px;
@@ -88,7 +104,10 @@ h3 {
   margin-top: 2rem; }
 
 .margen_top2 {
-  margin-top: 5rem; }
+  margin-top: 6rem; }
+
+.margen_top3 {
+  margin-top: 10rem; }
 
 .lista-padding-right {
   padding-inline-start: 0px; }
