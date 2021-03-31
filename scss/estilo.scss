@@ -44,6 +44,13 @@ $margen: 2rem;
 .margen_top3{
     margin-top: $margen+8;
 }
+.ancla:before {       
+    display: block;
+    content: counter(ancla);     
+    margin-top: -120px;       
+    height: 120px;       
+    visibility: hidden; 
+  } 
 
 .lista-padding-right{
     padding-inline-start: 0px;
@@ -64,6 +71,8 @@ $margen: 2rem;
 }
 
 
+
+
 @media only screen and (max-width:669px){
     .row2{
         display: block;
@@ -72,6 +81,7 @@ $margen: 2rem;
         text-align: center;
     }
 }
+
 
 @media only screen and (max-width:1577px){
     .margen_top2{
@@ -89,6 +99,16 @@ $margen: 2rem;
         }
 }
 }
+
+@media only screen and (max-width:668px) {
+
+    .margen_top2{
+        margin-top: $margen+5.5;
+    }
+
+}
+    
+
 /* --TABLETS-- */
 
 @media only screen and (max-width:768px) {
@@ -104,6 +124,8 @@ $margen: 2rem;
     .row {
         display: block;
     }
+
+    
 
     /* ESPACIADO */
     .list-group-item {

@@ -28,8 +28,13 @@ h3{
     font-size: $margen+1;
 }
 
-.nav-link:hover {
+nav ul li a:hover{
     border-bottom: 2px solid black;
+}
+
+
+.link{
+    text-decoration: none;
 }
 
 @media only screen and (max-width:768px) {
